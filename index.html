@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yas Hesaplama Uygulaması</title>
+
+     <!-- Google Fonts  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <script src="./public/js/main.js"></script>
+ 
+</head>
+
+<body>
+    <div class="hesaplama-form">
+        <h1>Yas Hesaplama</h1>
+        <div class="inputs">
+            <div class="block">
+                <label for="gün"> Gün</label>
+                <input type="number" max="31" id="gün" class="input" placeholder="dd">
+            </div>
+            <div class="block">
+                <label for="ay"> Ay </label>
+                <input type="number" max="12" id="ay" class="input" placeholder="mm">
+            </div>
+            <div class="block">
+                <label for="yıl"> Yıl </label>
+                <input type="number" id="yıl" class="input" placeholder="yyyy">
+            </div>
+        </div>
+        <button type="submit" class="btn" onclick="yashesapla()"> Hesapla</button>
+        <p id="varsayılanYas"></p>
+    </div>
+
+</body>
+</html>

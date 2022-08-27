@@ -1,0 +1,68 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #111826;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1 {
+    margin-left: 23%;
+}
+
+.hesaplama-form {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5%;
+    padding: 2%;
+    border-color: deepskyblue;
+}
+
+.inputs {
+    display: flex;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    margin: 0 8px;
+}
+label {
+    font-size: 18px;
+}
+
+.input {
+    border:  2px solid deepskyblue;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 7px;
+    padding: 8px;
+    margin-top: 4px;
+    outline: none;
+}
+.btn {
+    height: 3rem;
+    width: 8rem;
+    border: 2px solid deepskyblue;
+    background: deepskyblue;
+    color: white;
+    font-size: 16px;
+    border-radius: 7px;
+    padding: 8px;
+    margin-top: 30px;
+    margin-left: 35%;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+#varsayılanYas{
+    text-align: center;
+}
